@@ -1,61 +1,4 @@
 
-function posttophp(url,va)
-{
-
-
-	$.post(url,
-    va,
-    function(data, status){
-        return(data);
-    });
-}
-
-
-function linkphp(url,parameters)
-{
-
-	var hr = new XMLHttpRequest();
-  			hr.open("POST", url, false);
-   			 hr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-   			 hr.onreadystatechange = function() 
-   			 {
-   			   if(hr.readyState == 4 && hr.status == 200) 
-    		  {
-    		  		return(hr.responseText);
-    		  		
-        				    			      			  	
-      			 
-   				 }
-				}
-
-   				 
-   				 hr.send(parameters);
-	
-}
-
-function linkphpsyn(url,parameters)
-{
-
-	var hr = new XMLHttpRequest();
-  			hr.open("POST", url, true);
-   			 hr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-   			 hr.onreadystatechange = function() 
-   			 {
-   			   if(hr.readyState == 4 && hr.status == 200) 
-    		  {
-    		  		return(hr.responseText);
-    		  		
-        				    			      			  	
-      			 
-   				 }
-				}
-
-   				 
-   				 hr.send(parameters);
-	
-}
-
-
 function get2urlphp(url,va)
 {
 	window.location = url + "?" + va;
@@ -303,4 +246,25 @@ function toggledisplay(get_id)
 	else{
 		item.style.display = 'none';
 	}
+}
+
+
+function post(parameters,upload_url,callback)
+{
+	var xhr = new XMLHttpRequest();
+            xhr.open('POST', upload_url, false);
+          
+            xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                        
+            xhr.onreadystatechange = function() {
+            if (this.readyState == 4){
+                if (this.status == 200) {
+                	 callback(this.responseText);
+                     }else if (this.status >= 400) {
+                        callback("Problem");
+                }
+            }
+            }
+
+        xhr.send(parameters);
 }
