@@ -86,8 +86,8 @@ body {
 }
 
 .overlay {
-	height: 80px;
-	display: inline-block;
+  height: 100%;
+  display: inline-block;
   position: absolute;
   opacity: 0;
   padding: 10px;
