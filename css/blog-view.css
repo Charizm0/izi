@@ -6,7 +6,7 @@ body {
 	width: 94%;
 	max-width: 1200px;
 	min-width: 800px;
-	margin: 70px auto;
+	margin: 20px auto;
 }
 
 #columns {
@@ -142,4 +142,18 @@ body {
 .pagination {
   position: absolute;
   right: 5%;
+}
+.sort-by-menu {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.sort-by-menu span {
+	background-color: lightgray;
+	padding: 10px;
+	border-radius: 6px 6px 0px 0px;
+}
+
+.sort-by-menu span:nth-child(2) {
+	background-color: white;
 }
