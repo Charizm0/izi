@@ -86,10 +86,10 @@ body {
 }
 
 .overlay {
+	height: 80px;
+	display: inline-block;
   position: absolute;
   opacity: 0;
-  width: 100%;
-  height: 100%;
   padding: 10px;
 }
 .overlay:hover {
@@ -123,17 +123,19 @@ body {
 */
 
 .share-list img {
+	width: 30px;
   padding: 3px;
   cursor: pointer;
   border: 0;
 
 }
 .share-list ul {
-  width: 80px;
+
 }
 
 .share-list li {
   background-color: white;
+	display: inline-block;
   list-style: none;
 }
 
