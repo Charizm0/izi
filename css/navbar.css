@@ -1,0 +1,94 @@
+.logo-size{
+	height: 45px;
+
+}
+.navbar-theme{
+	background-color: black;
+	color: white;
+
+}
+.navbar-theme li{
+	color: white;
+}
+.navbar-brand{
+	padding-top: 3px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #29DAE4;
+    background-color: #3E3A3A;
+}
+
+.izifiso-footer{
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+	padding: 5px;
+	width: 100%;
+}
+
+.suggested-icon{
+	width: 100px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #F9F7F7;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #29DAE4;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #2EDAE4;
+    background-color: #3A3838;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #2EDAE4;
+    background-color: transparent;
+}
+.dropdown-toggle{
+	color: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #080808;
+}
+.navbar-default .navbar-toggle {
+    border-color: #0AA5A0;
+}
+
+.details {
+	margin-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: rgba(0,0,0,50);
+}
+.slideshow {
+	background: url("image/marquee1.jpg");
+}
+
+.carousel-control {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.bgimage {
+	z-index: -1;
+	opacity: 0.3;
+	width: 2000px;
+	position: fixed;
+
+}
