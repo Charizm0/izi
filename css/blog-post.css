@@ -50,7 +50,12 @@
   background-color: red;
 }
 
+.comment-details {
+  padding-top: 10px;
+}
+
 .comment {
   border-bottom: 1px solid lightgray;
-  padding: 10px;
+  padding-top:10px;
+  padding-bottom: 10px;
 }
