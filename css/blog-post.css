@@ -26,36 +26,20 @@
   height: 108px;
 }
 
-.share-buttons {
-  position: fixed;
-  top: 80px;
-  left: 0px;
-}
-
-.share-buttons li {
-  list-style: none;
-  color: white;
-  padding: 3px 30px 3px 30px;
-  margin: 5px;
-  border-radius: 3px;
-}
-
-.share-buttons li:nth-child(1){
-  background-color: #0A43DC;
-}
-.share-buttons li:nth-child(2){
-  background-color: #17E7EF;
-}
-.share-buttons li:nth-child(3){
-  background-color: red;
-}
 
 .comment-details {
   padding-top: 10px;
 }
 
 .comment {
-  border-bottom: 1px solid lightgray;
   padding-top:10px;
   padding-bottom: 10px;
+}
+
+.each-comment {
+  border-bottom: 1px solid lightgray;
+}
+
+.each-popular {
+  margin-bottom: 20px;
 }
