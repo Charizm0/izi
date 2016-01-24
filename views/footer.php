@@ -3,9 +3,11 @@
 	<title>footer</title>
 	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
 	<script type="text/javascript" src = "../../js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../css/footer.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
-	<div class="container"	
+<div class="container-fluid subfooter">
+	<div class="container">
 	<div class="col-md-4">
 		<strong>Sitemap</strong>
 		<ul>
@@ -33,11 +35,13 @@
 			<li>YouTube</li>
 		</ul>
 	</div>
+</div>
+</div>
+<div class="container-fluid footer">
 	<div class="col-md-12">
-		&copy izifiso.com 2014-2016. Izifiso is a registered trademark.
+		&copy 2016 izifiso.com
 	</div>
-</div>	
+</div>
 
 </body>
 </html>
-
