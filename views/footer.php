@@ -8,7 +8,7 @@
 <body>
 <div class="container-fluid subfooter">
 	<div class="container">
-	<div class="col-md-4">
+	<div class="col-md-4 col-xs-4">
 		<strong>Sitemap</strong>
 		<ul>
 			<li>Home</li>
@@ -17,7 +17,7 @@
 			<li>Store</li>
 		</ul>
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4 col-xs-4">
 		<strong>Events</strong>
 		<ul>
 			<li>Pen Down</li>
@@ -25,7 +25,7 @@
 			<li>Blog Competition</li>
 		</ul>
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4 col-xs-4">
 		<strong>Follow Us</strong>
 		<ul>
 			<li>Facebook</li>
