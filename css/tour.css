@@ -9,7 +9,7 @@
 }
 
 .hero-banner img {
-  width: 1920px;
+  width: 100vw;
   overflow-x: hidden;
 }
 .info {
