@@ -1,0 +1,38 @@
+.categories {
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tour-image image {
+  width: 20px;
+}
+
+.tour-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.5);;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.tour-type {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(240, 0, 0, 0.5);;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.categorisation {
+  position: relative;
+  top: 90vh;
+  height: 1500px;
+  background-color: #fff;
+}
