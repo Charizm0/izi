@@ -2,7 +2,7 @@
   margin-top: 50px;
   position: relative;
   overflow: hidden;
-  overflow-y: hidden;
+  height: 250px;
 }
 
 .tour-image image {
