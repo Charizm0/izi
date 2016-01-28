@@ -1,0 +1,23 @@
+title of the tour (input)
+small description of the tour
+category of the tour select from 9 options
+5pics
+Availability  [placeholder: e.g. Daily or at a prticular time of 				the year]
+Price [palceholder e.g. Rs 2000 per person
+						Rs 7500 for private tour (upto 4 people)
+	  ]
+
+Group Size Min: 
+		   Max:	  		
+
+Meeting Point:
+End Point:
+Timings: [placeholder: mention the time of meeting, the departure time and approximate time needed to complete the tour]
+Share the google maps url:
+
+F.A.Q. 
+
+Question 1:
+Answer:
+
++add question	
