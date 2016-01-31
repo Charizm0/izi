@@ -88,7 +88,7 @@
     				<li  class="active"><a href="photo_up.html" >Gallery</a></li>
     				<li><a href="index.html">Shop</a></li>
     				<li class="dropdown">
-    			<a id = "xx" href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+    			<a id = "xx" href="#" class="dropdown-toggle" data-toggle="dropdown">subhadeep<b class="caret"></b></a>
     			<ul class="dropdown-menu">
 
 

@@ -3,6 +3,7 @@
   position: relative;
   overflow: hidden;
   height: 250px;
+  cursor: pointer;
 }
 
 .tour-image image {
@@ -14,7 +15,7 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  background-color: rgba(0, 0, 0, 0.5);;
+  background-color: rgba(0, 0, 0, 0.2);;
   height: 100%;
   width: 100%;
   z-index: 2;
@@ -25,10 +26,14 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  background-color: rgba(240, 0, 0, 0.5);;
+  background-color: rgba(0, 0, 0, 0.2);;
   height: 100%;
   width: 100%;
   z-index: 2;
+  text-align: center;
+  color: #fff;
+  font-size: 1.6em;
+  padding: 30%;
 }
 
 .categorisation {
