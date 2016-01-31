@@ -11,13 +11,13 @@ body {
 
 #columns {
 	-webkit-column-count: 3;
-	-webkit-column-gap: 10px;
+	-webkit-column-gap: 5px;
 	-webkit-column-fill: auto;
 	-moz-column-count: 3;
-	-moz-column-gap: 10px;
+	-moz-column-gap: 5px;
 	-moz-column-fill: auto;
 	column-count: 3;
-	column-gap: 15px;
+	column-gap: 5px;
 	column-fill: auto;
 }
 
@@ -157,3 +157,4 @@ body {
 .sort-by-menu span:nth-child(1) {
 	background-color: white;
 }
+5
