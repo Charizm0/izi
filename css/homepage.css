@@ -131,3 +131,11 @@
 .banner img {
   max-width: 900px;
 }
+
+.right-side {
+  margin-top: 15px;
+}
+
+.right-side img {
+  margin-bottom: 20px;
+}

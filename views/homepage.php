@@ -167,6 +167,11 @@
           </div>
         </div>
         <div class="col-md-3">
+          <div class="right-side">
+            <img class="col-md-12" src="6.jpg" alt="" /> <img class="col-md-12" src="6.jpg" alt="" />
+        
+
+          </div>
         </div>
 
       </div>
