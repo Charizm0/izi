@@ -109,7 +109,7 @@
 #left {
   position: absolute;
   height: 400px;
-  width: 10%;
+  width: 70px;
   background-color: rgba(0, 0, 0, 0.4);;
   z-index: 2;
   top: 0px;
@@ -122,11 +122,11 @@
 #right {
   position: absolute;
   height: 400px;
-  width: 10%;
+  width: 70px;
   background-color: rgba(0, 0, 0, 0.4);;
   z-index: 2;
   top: 0px;
-  right: 0px;
+  right: -70px;
   text-align: center;
   font-size: 30px;
   padding-top: 150px;
