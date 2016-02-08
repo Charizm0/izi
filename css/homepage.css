@@ -48,6 +48,7 @@
 
 .banner-container {
   height: 400px;
+  width: 1200px;
   position: relative;
   padding: 0px;
   z-index: 1;
@@ -56,6 +57,7 @@
 
 .banner-container img {
   height: 400px;
+  width: 1200px;
 }
 
 .controller {
