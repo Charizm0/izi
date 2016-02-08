@@ -37,8 +37,6 @@
 }
 
 .banner {
-  height: 400px;
-  background-color: red;
   margin-top: 15px;
   margin-bottom: 25px;
   padding-left: 0px;
@@ -47,7 +45,6 @@
 }
 
 .banner-container {
-  height: 400px;
   position: relative;
   padding: 0px;
   z-index: 1;
