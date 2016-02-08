@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  color: #222;
+}
+
+.container {
+  background-color: lightgray;
+  min-width: 1200px;
+}
+
+.coverpic {
+  z-index: 1;
+  position: fixed;
+  max-width: 1200px;
+  overflow: hidden;
+}
+
+.pagecontents {
+  position: fixed;
+  height: 700px;
+  background-color: lightgray;
+  top: 400px;
+  z-index: 2;
+}
+
+.dp {
+  position: relative;
+  top: 250px;
+  left: 100px;
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  z-index: 3;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.dp img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.profilenav {
+  height: 65px;
+  top: 0px;
+  background-color: #fff;
+}
+
+.profilenavlist {
+  margin-left: 400px;
+}
+
+.profilenavlist ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 1.6em;
+  padding: 15px;
+}
+
+.profilenavlist ul li:nth-child(1) {
+  border-bottom: 5px solid lightblue;
+}
+
+.profilenavlist ul li:hover {
+  border-bottom: 5px solid lightblue;
+}
+
+.userfullname {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.userinfo {
+  position: relative;
+  top: 400px;
+  z-index: 5;
+  width: 250px;
+  left: 100px;
+}
+
+.maincontent {
+  position: relative;
+  top: 660px;
+  z-index: 5;
+  height: 6000px;
+  background-color: #fff;
+  float: left;
+  margin-left: 400px;
+}
