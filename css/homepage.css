@@ -2,12 +2,12 @@
 .home-wrapper {
   background-color: #f7f5ee;
   margin-top: 50px;
-  text-align: center;
 }
 
 .container {
   background-color: #fff;
   box-shadow: 0 0 15px rgba(24, 237, 243, 0.64);
+  text-align: center;
 }
 
 .item {
