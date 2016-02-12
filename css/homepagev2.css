@@ -13,12 +13,12 @@ body h3 {
 }
 
 .item {
-  height: 350px;
-  width: 250px;
+  height: 250px;
+  width: 200px;
   display: inline-block;
   border: 1px solid #000;
   border-radius: 5px;
-  margin: 12px;
+  margin: 2px;
   position: relative;
   overflow: hidden;
 }

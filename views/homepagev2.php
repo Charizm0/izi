@@ -13,7 +13,7 @@
 
     <div class="container-fluid home-wrapper">
       <div class="container">
-        <div class="col-md-12">
+        <div class="col-md-10">
           <div class="banner">
             <div class="banner-container">
               <img src="6.jpg" alt="" />
@@ -203,14 +203,14 @@
             </div></a>
 
           </div>
-        </div><!--
-        <div class="col-md-3">
+        </div>
+        <div class="col-md-2">
           <div class="right-side">
             <img class="col-md-12" src="6.jpg" alt="" /> <img class="col-md-12" src="6.jpg" alt="" />
 
 
           </div>
-        </div>-->
+        </div>
 
       </div>
 

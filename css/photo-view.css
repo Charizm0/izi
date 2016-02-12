@@ -156,3 +156,10 @@ body {
 .sort-by-menu span:nth-child(1) {
 	background-color: white;
 }
+.stamp {
+	float: right;
+	background-color: lightpink;
+	margin-right: -10px;
+	padding: 0px 5px;
+	font-weight: bolder;
+}
