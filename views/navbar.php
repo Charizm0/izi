@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <!--bootstrap overrider-->
 <link rel="stylesheet" href="../css/navbar.css" media="screen" title="no title" charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0s">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <body>
@@ -76,12 +77,22 @@
     				</button>
 
     			<a class="navbar-brand" href="#"><img class="logo-size" src="../../logo.png"></a>
+
+
     			</div>
+
+
 
     		<div class="collapse navbar-collapse navbar-right" id="bs-izifiso-menu-in">
 
 
     			<ul class="nav navbar-nav">
+            <li><form class="search" action="index.html" method="post">
+              <input type="text" name="name" value="" class="search-bar">
+              <input type="button" name="name" value="search" class="search-button">
+
+            </form></li>
+
     				<li ><a href="../../home/index.html">Home</a></li>
     				<li><a href="index.html">Explore</a></li>
     				<li><a href="jk.html">Blog</a></li>
@@ -92,7 +103,7 @@
     			<ul class="dropdown-menu">
 
 
-    		<li><a href="../editor_finished!!/editor.html">Write a Blog</a></li>
+    		        <li><a href="../editor_finished!!/editor.html">Write a Blog</a></li>
                 <li><a href="photo.html">Upload Photo</a></li>
                 <li><a href="#">Notifications</a></li>
                 <li><a href="p3s.php">Profile</a></li>

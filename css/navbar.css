@@ -92,3 +92,16 @@ button, input, optgroup, select, textarea {
 	position: fixed;
 
 }
+.search {
+	margin-right: 70px;
+	margin-top: 10px;
+}
+
+.search-bar {
+	width: 300px;
+	padding: 5px;
+}
+
+.search-button {
+	padding: 5px;
+}
