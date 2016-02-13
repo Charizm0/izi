@@ -40,10 +40,11 @@ body h3 {
 }
 .item-info {
   position: absolute;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0);
   width: 100%;
   height: 100%;
-  display: none;
+  transition-property: all;
+  transition-duration: 1000ms;
 }
 .item-info:hover {
   display: block;
@@ -51,11 +52,29 @@ body h3 {
   width: 100%;
   height: 100%;
 }
-.item p{
-  font-weight: bold;
-  padding: 10px;
+.item-info:hover #title {
+  color: rgba(255, 255, 255, 1);
 }
-
+.item-info #title {
+  color: rgba(0, 0, 0, 0);
+}
+.item-info:hover #author {
+  color: rgba(255, 255, 255, 1);
+}
+.item-info #author {
+  color: rgba(0, 0, 0, 0);
+}
+#title {
+padding: 200px 5px 5px 5px;
+transition-property: all;
+transition-duration: 1000ms;
+}
+#author {
+  font-size: 0.8em;
+  padding: 0px 5px 5px 5px;
+  transition-property: all;
+  transition-duration: 1000ms;
+}
 .item-image {
   overflow: hidden;
   height: 350px;
@@ -63,6 +82,7 @@ body h3 {
 
 
 }
+
 
 .item-image img {
   max-height: 350px;

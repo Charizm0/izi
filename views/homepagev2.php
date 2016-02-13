@@ -30,9 +30,14 @@
 
               </div>
               <div class="item-info">
-                <p>
-                  Blah blah
-                </p>
+                <div id="title">Dey ke?
+
+                </div>
+
+                <div id="author">Yo yo
+
+                </div>
+
 
               </div>
 
