@@ -63,13 +63,25 @@ body h3 {
 .item-info #author {
   color: rgba(0, 0, 0, 0);
 }
+.item-info:hover #likecount {
+  color: rgba(255, 255, 255, 0.6);
+}
+.item-info #likecount {
+  color: rgba(0, 0, 0, 0);
+}
 #title {
-padding: 200px 5px 5px 5px;
+padding: 170px 5px 5px 5px;
 transition-property: all;
 transition-duration: 1000ms;
 }
 #author {
   font-size: 0.8em;
+  padding: 0px 5px 5px 5px;
+  transition-property: all;
+  transition-duration: 1000ms;
+}
+#likecount {
+  font-size: 0.9em;
   padding: 0px 5px 5px 5px;
   transition-property: all;
   transition-duration: 1000ms;

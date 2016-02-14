@@ -41,7 +41,7 @@
 
                 </div>
 
-              <div id="likecount">Likes
+              <div id="likecount">Likes 45
 
                 </div>
   

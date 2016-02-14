@@ -1,0 +1,41 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper{
+}
+.window{
+	height: 450px;
+	margin: 100px auto;
+	position: relative;
+	width: 90%;
+}
+
+.image{
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+.image img{
+	height: 100%;
+}
+.details{
+	position: absolute;
+}
+.comment-section{
+	height: 100%;
+	width: 400px;
+	position: relative;
+	float: left;
+	top: 0px;
+	right: 0px;
+	display: inline-block;
+	padding: 10px;
+}
+.comment{
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	background-color: blue;
+	width: 100%;
+}
