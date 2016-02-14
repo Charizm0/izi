@@ -108,6 +108,7 @@ transition-duration: 1000ms;
   padding-left: 0px;
   padding-right: 0px;
   box-shadow: 4px 4px 5px #c5c5c5;
+  cursor: pointer;
 }
 
 .banner-container {
