@@ -17,6 +17,9 @@
           <div class="banner">
             <div class="banner-container">
               <img src="7.jpg" alt="" />
+              <div class="antialiasing">
+
+              </div>
 
             </div>
 
