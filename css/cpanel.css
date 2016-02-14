@@ -1,0 +1,31 @@
+/*=====================Global CSS=======================*/
+body{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	color: #6A6973;
+	text-decoration: none;
+}
+a:active{
+	color: #fff;
+}
+
+/*=====================Page CSS=======================*/
+.container{
+	margin: 0;
+	padding: 0;
+}
+.tree{
+	background-color: #181823;
+	height: 100%;
+	width: 200px;
+	display: inline-block;
+	padding: 5px;
+}
+.tree ul,li{	
+	list-style-type: none;
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+}

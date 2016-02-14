@@ -16,7 +16,7 @@
         <div class="col-md-9">
           <div class="banner">
             <div class="banner-container">
-              <img src="7.jpg" alt="" />
+              <img src="3.jpg" alt="" />
               <div class="antialiasing">
 
               </div>
@@ -41,7 +41,10 @@
 
                 </div>
 
+              <div id="likecount">Likes
 
+                </div>
+  
               </div>
 
 
@@ -202,7 +205,7 @@
         </div>
         <div class="col-md-3">
           <div class="right-side">
-            <img class="col-md-12" src="7.jpg" alt="" /> <img class="col-md-12" src="6.jpg" alt="" />
+            <img class="col-md-12" src="PHO.jpg" alt="" /> <img class="col-md-12" src="PHO1.jpg" alt="" /> <img class="col-md-12" src="PHO2.jpg" alt="" />
 
 
           </div>
