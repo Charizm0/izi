@@ -16,7 +16,9 @@
         <div class="col-md-9">
           <div class="banner">
             <div class="banner-container">
-              <img src="3.jpg" alt="" />
+              <a href="">
+                <img src="3.jpg" alt="" />
+              </a>
               <div class="antialiasing">
 
               </div>
