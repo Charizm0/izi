@@ -9,7 +9,7 @@
           <div class="col-height col-middle">
              <div class="image-background">
                <div class="image-container">
-                <img src="https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12670153_963027400446810_9121383558166261016_n.jpg?oh=85021d54ac5358fc1226ad4fdc1f4dda&oe=576CE279" />
+                <img src="https://scontent.xx.fbcdn.net/hphotos-xal1/v/t1.0-9/10405624_1685708708338296_6008159379339595796_n.jpg?oh=94f5cfa8921bf5ae49671ac8d200e02c&oe=57321537" />
                </div>
             </div>
           </div>
