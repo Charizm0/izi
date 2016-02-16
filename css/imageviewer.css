@@ -1,41 +1,374 @@
-body{
-	margin: 0px;
-	padding: 0px;
+
+
+/* columns of same height styles */
+*{
+  margin: 0;
+  padding: 0;
 }
-.wrapper{
+body{}
+a {
+  text-decoration: none;
+  color: #008CBA;
 }
-.window{
-	height: 450px;
-	margin: 100px auto;
-	position: relative;
-	width: 90%;
+.container{
+  margin: 0 auto;
+  width: 1200px;
+  min-width: 1020px;
+  background-color: #fff;
+}
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 500px;
+  width: 500px;
+}
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 500px;
+}
+.col-top {
+  vertical-align: top;
+}
+.col-middle {
+  vertical-align: middle;
+}
+.col-bottom {
+  vertical-align: bottom;
 }
 
-.image{
-	position: relative;
-	float: left;
-	display: inline-block;
+@media (min-width: 480px) {
+  .row-xs-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-xs-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-xs-top {
+    vertical-align: top;
+  }
+  .col-xs-middle {
+    vertical-align: middle;
+  }
+  .col-xs-bottom {
+    vertical-align: bottom;
+  }
 }
-.image img{
-	height: 100%;
+
+@media (min-width: 768px) {
+  .row-sm-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-sm-top {
+    vertical-align: top;
+  }
+  .col-sm-middle {
+    vertical-align: middle;
+  }
+  .col-sm-bottom {
+    vertical-align: bottom;
+  }
 }
-.details{
-	position: absolute;
+
+@media (min-width: 992px) {
+  .row-md-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-md-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-md-top {
+    vertical-align: top;
+  }
+  .col-md-middle {
+    vertical-align: middle;
+  }
+  .col-md-bottom {
+    vertical-align: bottom;
+  }
 }
-.comment-section{
-	height: 100%;
-	width: 400px;
-	position: relative;
-	float: left;
-	top: 0px;
-	right: 0px;
-	display: inline-block;
-	padding: 10px;
+
+@media (min-width: 1200px) {
+  .row-lg-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-lg-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-lg-top {
+    vertical-align: top;
+  }
+  .col-lg-middle {
+    vertical-align: middle;
+  }
+  .col-lg-bottom {
+    vertical-align: bottom;
+  }
 }
-.comment{
-	position: absolute;
-	bottom: 0px;
-	height: 40px;
-	background-color: blue;
-	width: 100%;
+
+/* --------------------- */
+.image-background {
+  background: #000;
+  display: table;
+  width: 700px;
+  height: 500px;  
+  position: relative;
+}
+
+.image-container {
+  display: table-cell;  
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  max-height: 500px;
+  max-width: 100%;
+  margin: auto;
+}
+
+
+/* columns of same height styles */
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: 0 auto;
+}
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 500px;
+  width: 500px;
+}
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 500px;
+}
+.col-top {
+  vertical-align: top;
+}
+.col-middle {
+  vertical-align: middle;
+}
+.col-bottom {
+  vertical-align: bottom;
+}
+
+@media (min-width: 480px) {
+  .row-xs-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-xs-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-xs-top {
+    vertical-align: top;
+  }
+  .col-xs-middle {
+    vertical-align: middle;
+  }
+  .col-xs-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 768px) {
+  .row-sm-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-sm-top {
+    vertical-align: top;
+  }
+  .col-sm-middle {
+    vertical-align: middle;
+  }
+  .col-sm-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 992px) {
+  .row-md-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-md-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-md-top {
+    vertical-align: top;
+  }
+  .col-md-middle {
+    vertical-align: middle;
+  }
+  .col-md-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row-lg-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-lg-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-lg-top {
+    vertical-align: top;
+  }
+  .col-lg-middle {
+    vertical-align: middle;
+  }
+  .col-lg-bottom {
+    vertical-align: bottom;
+  }
+}
+
+/* --------------------- */
+.image-info-background {
+  overflow: auto;
+  display: table;
+  width: 400px;
+  height: 500px;  
+  position: relative;
+}
+
+.comment-container {
+  display: table-cell;
+  margin: auto;
+  max-height: 500px;
+  max-width: 300px;
+}
+
+img {
+  display: block;
+  max-height: 500px;
+  max-width: 100%;
+  margin: auto;
+}
+.cc{
+  overflow: auto;
+  width: 400px;
+  height: 500px;
+}
+.each-comment{
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+.like{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: gray;
+  cursor: pointer;
+}
+.liked{
+  color: #f00;
+}
+.fbshare{
+  background-color: #0042BA;
+  border: none;
+  color: white;
+  padding: 2px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.gshare{
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 2px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.cb{
+    min-width: 280px;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+}
+.essentials{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.col-height2 {
+  display: table-cell;
+  float: right;
+  margin-top: 80px;
+  height: 500px;
+}
+.col-middle2 {
+  vertical-align: middle;
 }
