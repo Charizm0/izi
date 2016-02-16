@@ -1,6 +1,6 @@
 <html>
   <head>
-    <link rel="stylesheet" href="../css/test.css">
+    <link rel="stylesheet" href="../css/imageviewer.css">
   </head>
   <body>
     <div class="container">
