@@ -253,9 +253,13 @@ function post(parameters,upload_url,callback)
 {
 	var xhr = new XMLHttpRequest();
             xhr.open('POST', upload_url, false);
-          
-            xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-                        
+            
+
+		xhr.setHeader('Access-Control-Allow-Origin', "http://localhost:8000');
+
+        xhr.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+        xhr.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+
             xhr.onreadystatechange = function() {
             if (this.readyState == 4){
                 if (this.status == 200) {
@@ -267,4 +271,24 @@ function post(parameters,upload_url,callback)
             }
 
         xhr.send(parameters);
+}
+
+function quickmail(){
+	this.sendto = "";
+	this.from = "";
+	this.username = "";
+	this.password = "";
+	this.server = "";
+	this.encryption = "tls";
+	this.mailport = "587";
+	this.mailtitle = "";
+	this.mailsubject = "";
+	this.mailbody = "";
+	this.send = function send(){
+		var parameters = "to="+this.sendto+"&from="+this.from+"&user="+this.username+"&pass="+this.password+"&host="+this.server+"&encryption="+this.encryption+"&portm="+this.mailport+"&main="+this.mailtitle+"&subject="this.mailsubject+"&body="+this.mailbody;
+		function callback(response){
+			alert(response);
+		}
+		post(parameters,"http://izifiso.com/satmail/trymail.php",callback);
+	}
 }
