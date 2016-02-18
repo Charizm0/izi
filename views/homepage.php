@@ -1,12 +1,9 @@
-
-
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Izifiso-Home</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="../css/homepage.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
@@ -16,7 +13,7 @@
 
     <div class="container-fluid home-wrapper">
       <div class="container">
-        <div class="col-md-9">
+        <div class="col-md-12">
           <div class="banner">
             <div class="banner-container">
               <img src="6.jpg" alt="" />
@@ -38,6 +35,17 @@
           </div>
           <div class="events">
             <h3>Events</h3>
+
+            <a href=""><div class="item">
+              <div class="item-image">
+                <img src="http://www.shortday.in/wp-content/uploads/2015/05/priyanka-chopra.jpg" alt="" />
+
+              </div>
+              <p>
+                lorem ipsum sit amet
+              </p>
+
+            </div></a>
             <a href=""><div class="item">
               <div class="item-image">
                 <img src="http://www.shortday.in/wp-content/uploads/2015/05/priyanka-chopra.jpg" alt="" />
@@ -82,6 +90,17 @@
           </div>
           <div class="photos">
             <h3>Photos</h3>
+
+            <a href=""><div class="item">
+              <div class="item-image">
+                <img src="http://www.shortday.in/wp-content/uploads/2015/05/priyanka-chopra.jpg" alt="" />
+
+              </div>
+              <p>
+                lorem ipsum sit amet
+              </p>
+
+            </div></a>
             <a href=""><div class="item">
               <div class="item-image">
                 <img src="http://www.shortday.in/wp-content/uploads/2015/05/priyanka-chopra.jpg" alt="" />
@@ -166,16 +185,26 @@
               </p>
 
             </div></a>
+            <a href=""><div class="item">
+              <div class="item-image">
+                <img src="http://www.shortday.in/wp-content/uploads/2015/05/priyanka-chopra.jpg" alt="" />
+
+              </div>
+              <p>
+                lorem ipsum sit amet
+              </p>
+
+            </div></a>
 
           </div>
-        </div>
+        </div><!--
         <div class="col-md-3">
           <div class="right-side">
             <img class="col-md-12" src="6.jpg" alt="" /> <img class="col-md-12" src="6.jpg" alt="" />
-        
+
 
           </div>
-        </div>
+        </div>-->
 
       </div>
 
