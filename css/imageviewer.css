@@ -37,7 +37,7 @@ a {
 .col-bottom {
   vertical-align: bottom;
 }
-
+/*
 @media (min-width: 480px) {
   .row-xs-height {
     display: table;
@@ -129,7 +129,7 @@ a {
     vertical-align: bottom;
   }
 }
-
+*/
 /* --------------------- */
 .image-background {
   background: #000;
