@@ -239,3 +239,6 @@ img{
   left: 5px;
   font-size: 10px;
 }
+.wrapper{
+  max-width: 500px;
+}
