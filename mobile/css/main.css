@@ -13,6 +13,9 @@ body{
 img{
   width: 100%;
 }
+
+/*=================Specific CSS=================*/
+
 #header{
   background-color: #000;
   text-align: center;
@@ -207,7 +210,7 @@ img{
   overflow: hidden;
 }
 .half img{
-  width: 100%;
+  height: 100%;
 }
 .image{
   position: relative;
@@ -238,7 +241,4 @@ img{
   bottom: 5px;
   left: 5px;
   font-size: 10px;
-}
-.wrapper{
-  min-width: 500px;
 }
