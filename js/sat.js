@@ -268,3 +268,28 @@ function post(parameters,upload_url,callback)
 
         xhr.send(parameters);
 }
+
+function quickmail(){
+	this.sendto = "";
+	this.from = "";
+	this.username = this.from;
+	this.password = "";
+	this.server = "";
+	this.encryption = "tls";
+	this.mailport = "587";
+	this.mailtitle = "";
+	this.mailsubject = "";
+	this.mailbody = "";
+	function onreturn(response2){
+		return response2;
+	}
+	this.send = function send(onreturn){
+		var parameters = "to="+this.sendto+"&from="+this.from+"&user="+this.username+"&pass="+this.password+"&host="+this.server+"&encryption="+this.encryption+"&port="+this.mailport+"&main="+encodeURIComponent(this.mailtitle)+"&subject="+encodeURIComponent(this.mailsubject)+"&body="+encodeURIComponent(this.mailbody);
+		function callback(response){
+			alert(response);
+		}
+		var satpath = this.rootpath + "/mail.php";
+		alert(satpath);
+		post(parameters,satpath,callback);
+	}
+}
