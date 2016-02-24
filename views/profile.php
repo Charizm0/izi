@@ -19,11 +19,12 @@
         <div class="profilemenu">
           <div class="menu">
           <ul>
-            <li><a href="#">option1</a></li>
-            <li><a href="#">option2</a></li>
-            <li><a href="#">option3</a></li>
-            <li><a href="#">option4</a></li>
-            <li><a href="#">option5</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">My Uploads</a></li>
+            <li><a href="#">Likes</a></li>
+            <li><a href="#">Drawer</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Messages</a></li>
           </ul>
           </div>
 
@@ -39,7 +40,8 @@
               nursery school teacher
             </p>
             <span class="message">Message Sunny Leone</span>
-
+            <span class="followers">Followers: 295987877</span>
+            <span class="following">Following: 120</span>
           </div>
         </div>
         <div class="info2">

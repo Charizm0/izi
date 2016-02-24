@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+.message-wrapper{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.message-box{
+  width: 400px;
+  height: 400px;
+  background-color: #DCDCDC;
+  padding: 15px;
+  box-shadow: 0px 0px 15px gray;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+textarea{
+  width: 100%;
+  height: 300px;
+}
+input{
+  width: 100%;
+  font-size: 20px;
+  padding: 5px;
+}
+.to{
+  margin-bottom: 10px;
+}
+.send{
+  float: right;
+  background-color: #00A1FF;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+.cancel{
+  float: right;
+  background-color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #525151;
+  margin-right: 5px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+.sending{
+  float: right;
+  background-color: #00A1FF;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #1470E2;
+}
