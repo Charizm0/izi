@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/profile.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <div class="container">
+    <div class="contain">
       <div class="coverpic">
         <img src="6.jpg" alt="" />
 
@@ -43,7 +43,31 @@
           </div>
         </div>
         <div class="info2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <a href="#">
+            <div class="content">
+              <div id="title">Yo Yo Yo Sexy mama</div>
+              <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam vero sint nulla asperiores debitis et, soluta aliquid facilis ea enim praesentium magni voluptate, libero officiis voluptatem, laborum nemo sunt.</div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="content">
+              <div id="title">Yo Yo Yo Sexy mama</div>
+              <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam vero sint nulla asperiores debitis et, soluta aliquid facilis ea enim praesentium magni voluptate, libero officiis voluptatem, laborum nemo sunt. <img src="http://www.dearblogger.org/wp-content/uploads/2013/03/blog.jpg" alt=""></div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="content">
+              <div id="title">Yo Yo Yo Sexy mama</div>
+              <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam vero sint nulla asperiores debitis et, soluta aliquid facilis ea enim praesentium magni voluptate, libero officiis voluptatem, laborum nemo sunt.</div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="content">
+              <div id="title">Yo Yo Yo Sexy mama</div>
+              <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam vero sint nulla asperiores debitis et, soluta aliquid facilis ea enim praesentium magni voluptate, libero officiis voluptatem, laborum nemo sunt.</div>
+            </div>
+          </a>
+
         </div>
 
       </div>
