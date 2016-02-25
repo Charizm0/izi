@@ -32,6 +32,7 @@ body {
   margin: 25px;
   padding: 25px;
   border-radius: 5px;
+  height: 500px;
 }
 
 .stats {
@@ -86,26 +87,31 @@ body {
   border-radius: 3px;
   cursor: pointer;
   display: block;
+  text-align: center;
 }
 
 .followers {
-  background-color: #21DBE8;
+  background-color: #c2c2c2;
   padding: 10px;
   position: relative;
   top: 40px;
   color: #fff;
   border-radius: 3px;
   cursor: pointer;
+  display: block;
+  text-align: center;
 }
 
 .following {
-  background-color: #21DBE8;
+  background-color: #c2c2c2;
   padding: 10px;
   position: relative;
   top: 70px;
   color: #fff;
   border-radius: 3px;
   cursor: pointer;
+  display: block;
+  text-align: center;
 }
 .dp {
   width: 250px;
@@ -134,4 +140,9 @@ body {
 }
 .title{
   font-size: 1.8em;
+  display: inline-block;
+}
+.likes{
+  display: inline-block;
+  float: right;
 }
