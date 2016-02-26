@@ -39,9 +39,20 @@
             <p>
               nursery school teacher
             </p>
-            <span class="message">Message Sunny Leone</span>
-            <span class="followers">Followers: 295987877</span>
-            <span class="following">Following: 120</span>
+            <span class="message">Message Sunny Leone</span><!--
+            <span class="followers">Followers: 295987877</span>-->
+            <span class="follow">
+              <table class="table">
+                <tr>
+                  <td>followers</td>
+                  <td>following</td>
+                </tr>
+                <tr>
+                  <td>5M</td>
+                  <td>120</td>
+                </tr>
+              </table>
+            </span>
           </div>
         </div>
         <div class="info2">
