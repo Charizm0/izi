@@ -8,6 +8,7 @@
     <title>Sunny Leone</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/profile.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../css/messagefeed.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
     <div class="contain">
@@ -56,29 +57,27 @@
           </div>
         </div>
         <div class="info2">
-          <a href="#">
-            <div class="content">
-              <div class="title">Yo Yo Yo Sexy mama</div>
-              <div class="content2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam vero sint nulla asperiores debitis et, soluta aliquid facilis ea enim praesentium magni voluptate, libero officiis voluptatem, laborum nemo sunt.</div>
-            </div>
-          </a>
-            <div class="content">
-              <div class="title"><a href="#">Yo Yo Yo Sexy mama</a></div>
-              <div class="likes"><a href="#">40 Likes</a></div>
-              <div class="content2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam vero sint nulla asperiores debitis et, soluta aliquid facilis ea enim praesentium magni voluptate, libero officiis voluptatem, laborum nemo sunt. <img src="http://www.dearblogger.org/wp-content/uploads/2013/03/blog.jpg" alt=""></div>
-            </div>
-          <a href="#">
-            <div class="content">
-              <div class="title">Yo Yo Yo Sexy mama</div>
-              <div class="content2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam vero sint nulla asperiores debitis et, soluta aliquid facilis ea enim praesentium magni voluptate, libero officiis voluptatem, laborum nemo sunt.</div>
-            </div>
-          </a>
-          <a href="#">
-            <div class="content">
-              <div class="title">Yo Yo Yo Sexy mama</div>
-              <div class="content2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam vero sint nulla asperiores debitis et, soluta aliquid facilis ea enim praesentium magni voluptate, libero officiis voluptatem, laborum nemo sunt.</div>
-            </div>
-          </a>
+        <!--<?php include('feed.php') ?>-->
+
+
+        <div class="message-content">
+          <div class="msenderdp"><img src="https://pbs.twimg.com/profile_images/696378410281504769/UcysQcal.jpg" alt=""></div>
+          <div class="mrest">
+            <div class="msendern">Yo Yo</div>
+            <div class="messagetext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nisi, dolore iste atque accusantium veniam tempora, excepturi, fugit error illo aperiam distinctio mollitia. Natus veniam consequatur hic repellat, blanditiis dolorem.</div>
+          </div>
+        </div>
+        <div class="message-content">
+          <div class="msenderdp"><img src="https://pbs.twimg.com/profile_images/696378410281504769/UcysQcal.jpg" alt=""></div>
+          <div class="mrest">
+            <div class="msendern">Yo Yo</div>
+            <div class="messagetext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nisi, dolore iste atque accusantium veniam tempora, excepturi, fugit error illo aperiam distinctio mollitia. Natus veniam consequatur hic repellat, blanditiis dolorem.</div>
+          </div>
+        </div>
+
+
+
+
 
         </div>
 

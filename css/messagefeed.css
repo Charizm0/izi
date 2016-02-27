@@ -1,0 +1,23 @@
+.message-content{
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.msenderdp{
+  width: 54px;
+  display: inline-block;
+  float: left;
+}
+.msenderdp img{
+  width: 100%;
+  padding: 5px;
+  top: 0px;
+}
+.mrest{
+  width: 540px;;
+  display: inline-block;
+}
+.msendern{
+  font-size: 1.2em;
+}
