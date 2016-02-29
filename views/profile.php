@@ -60,7 +60,7 @@
         <!--<?php include('feed.php') ?>-->
 
 
-        <div class="message-content">
+<!--        <div class="message-content">
           <div class="msenderdp"><img src="https://pbs.twimg.com/profile_images/696378410281504769/UcysQcal.jpg" alt=""></div>
           <div class="mrest">
             <div class="msendern">Yo Yo</div>
@@ -75,9 +75,36 @@
           </div>
         </div>
 
+-->
 
-
-
+        <div class="profile">
+          <table class="table">
+            <tr>
+              <td>Name</td><td>Sunny Leone</td>
+            </tr>
+            <tr>
+              <td>Status</td><td>Verified</td>
+            </tr>
+            <tr>
+              <td>Rank</td><td>Sunny Leone</td>
+            </tr>
+            <tr>
+              <td>Profile Picture</td><td><input type="file"></td>
+            </tr>
+            <tr>
+              <td>Email</td><td><input type="email" value="sunny@sunnyleone.com"></td>
+            </tr>
+            <tr>
+              <td>Phone Number <p>(*visible only to you)</p></td><td><input type="text" name="name" value="+91-984-597-8965"></td>
+            </tr>
+            <tr>
+              <td>Bio</td><td><textarea name="name" rows="8" cols="40" placeholder="write a short bio of yourself" ></textarea></td>
+            </tr>
+            <tr>
+              <td>Interests</td><td><textarea name="name" rows="3" cols="40" placeholder="enter separated by commas, like seas,mountains"></textarea></td>
+            </tr>
+          </table>
+        </div>
 
         </div>
 

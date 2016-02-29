@@ -145,3 +145,7 @@ body {
 .activated{
   font-weight: bold;
 }
+/*about me section */
+.profile{
+  padding: 95px;
+}
